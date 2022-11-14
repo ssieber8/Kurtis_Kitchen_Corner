@@ -1,0 +1,130 @@
+.nav {
+  background: #f6e9e8;
+  color: #707070;
+  padding: 1rem 3rem 1rem 3rem;
+
+  font-family: century-gothic,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 8rem;  
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.home_text {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #707070;
+}
+
+.home_image {
+  display: none;
+}
+
+.recipes_text {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #da9abd;
+}
+
+.recipes_image {
+  display: none;
+}
+
+.about_me_text {
+  color: #707070;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.about_me_text_2 {
+  display: none;
+}
+
+.instagram {
+  height: 3rem;
+}
+
+
+@media (max-width: 800px) 
+{
+  .logo {
+    height: 5rem;  
+  }
+
+  .item {
+    gap: 1.5rem;
+  }
+  
+  .home_text {
+    display: none;
+  }
+
+  .home_image {
+    width: 2.5rem;
+    display: block;
+  }
+
+  .recipes_text {
+    display: none;
+  }
+  
+  .recipes_image {
+    width: 3rem;
+    display: block;
+    border-bottom: solid #da9abd;
+    padding: 0.3rem;
+  }
+
+  .about_me_text {
+    display: none;
+  }
+  
+  .about_me_text_2 {
+    color: #707070;
+    font-size: 1.6rem;
+    display: block;
+  }
+}
+
+
+@media (max-width: 500px) 
+{
+  .nav {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .logo {
+    height: 4rem;  
+  }
+
+  .item {
+    gap: 0.5rem;
+  }
+
+  .home_image {
+    width: 1.8rem;
+  }
+  
+  .recipes_image {
+    width: 2.3rem;
+  }
+  
+  .about_me_text_2 {
+    font-size: 1.2rem;
+  }
+
+  .instagram {
+    height: 2.3rem;
+  }
+}

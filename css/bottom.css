@@ -1,0 +1,75 @@
+.bottom {
+  background: #f6e9e8;
+  color: #707070;
+
+  font-family: century-gothic,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  padding: 4rem;
+
+  position: relative;
+}
+
+.running {
+  height: 18rem;
+ }
+
+.leaf_2 {
+  height: 15rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 30rem;
+  transform: rotate(45deg);
+}
+
+.leaf_1 {
+  height: 20rem;
+  position: absolute;
+  top: -123rem;
+  left: 20rem;
+  transform: rotate(45deg);
+}
+
+
+@media (max-width: 800px) 
+{
+  .running {
+    height: 14rem;
+    }
+  
+  .leaf_2 {
+    height: 10rem;
+    bottom: 12rem;
+    left: 20rem;
+    }
+
+  .leaf_1 {
+    height: 14rem;
+    top: -204rem;
+    left: 15rem;
+  }
+}
+
+
+@media (max-width: 500px) 
+{
+  .bottom {
+    padding: 3rem;
+  }
+
+  .running {
+    height: 10rem;
+    }
+  
+  .leaf_2 {
+    height: 8rem;
+    left: 13rem;
+    }
+  
+  .leaf_1 {
+    height: 10rem;
+    top: -128rem;
+    left: 10rem;
+  }
+}

@@ -1,0 +1,162 @@
+.container {
+  background: #f6e9e8;
+  color: #707070;
+
+  font-family: century-gothic,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  width: 40rem;
+}
+
+.titel_main {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.titel_sub {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  width: 7rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.for {
+  font-size: 1rem;
+}
+
+.bowl {
+  height: 1rem;
+}
+
+.anleitung {
+  display: flex;
+  font-size: 1rem;
+  position: relative;
+}
+
+.rezept {
+  display: flex;
+}
+
+.menge {
+ width: 6rem;
+ padding: 3rem 1rem 1rem 1rem;
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+}
+
+.zutaten {
+  width: 13rem;
+  padding: 3rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.titel_step {
+  font-weight: bold;
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.text_1 {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.text_2 {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.text_3 {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+}
+
+.kurti {
+  height: 20rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 1.5rem;
+}
+
+
+@media (max-width: 500px) {
+
+.titel_main {
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.titel_sub {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  width: 12rem;
+}
+
+.for {
+  font-size: 1.8rem;
+}
+
+.bowl {
+  height: 1.8rem;
+}
+
+.anleitung {
+  flex-direction: column;
+  font-size: 1.8rem;
+}
+
+.menge {
+  width: 10rem;
+  padding: 5rem 2rem 2rem 2rem;
+  gap: 2.5rem;
+}
+
+.zutaten {
+  width: 30rem;
+  padding: 5rem 2rem 2rem 5rem;
+  gap: 2.5rem;
+}
+
+.titel_step {
+  padding-top: 8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text_1 {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.text_2 {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.text_3 {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 35rem;
+}
+
+.kurti {
+  height: 25rem;
+  left: 5rem;
+}
+}

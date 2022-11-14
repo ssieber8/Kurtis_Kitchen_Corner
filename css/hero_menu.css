@@ -1,0 +1,21 @@
+.hero {
+  width: 40rem;
+  position: relative; 
+}
+
+.ramen {
+  width: 40rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.button {
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  position: absolute;
+  top: -0.5rem;
+  right: 0.5rem;
+}
